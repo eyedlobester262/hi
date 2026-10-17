@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'PixelScallopClock-Rebuilt-Project.zip'
+      - 'PixelScallopClock-Rebuilt-Project-v2.zip'
       - '.github/workflows/build-scallop-apk.yml'
 permissions:
   contents: read
