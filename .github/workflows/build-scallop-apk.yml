@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'PixelScallopClock-Rebuilt-Project-v4.zip'
+      - 'PixelScallopClock-Rebuilt-Project-v5.zip'
       - '.github/workflows/build-scallop-apk.yml'
 permissions:
   contents: read
@@ -15,7 +15,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir project
-          unzip -q PixelScallopClock-Rebuilt-Project-v4.zip -d project
+          unzip -q PixelScallopClock-Rebuilt-Project-v5.zip -d project
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
